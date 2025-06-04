@@ -14,6 +14,8 @@ Parameters:
 Resources:
   SecurityGroup:
     Type: AWS::EC2::SecurityGroup
+    DeletionPolicy: Retain
+    UpdateReplacePolicy: Retain
     Properties:
       GroupDescription: Security group for EC2 instance
       VpcId: !ImportValue 
@@ -29,6 +31,8 @@ Resources:
 
   EC2Instance:
     Type: AWS::EC2::Instance
+    DeletionPolicy: Retain
+    UpdateReplacePolicy: Retain
     Properties:
       ImageId: !Ref EC2Ami
       InstanceType: t4g.nano
