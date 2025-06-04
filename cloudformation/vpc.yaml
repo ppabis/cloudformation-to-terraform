@@ -75,12 +75,12 @@ Resources:
 Outputs:
   VpcId:
     Description: VPC ID
-    Value: !Ref VPC
+    Value: vpc-061f0e384225289bd
     Export:
       Name: !Sub ${AWS::StackName}-VpcId
 
   PublicSubnetId:
     Description: Public Subnet ID
-    Value: !Ref PublicSubnet
+    Value: subnet-02683626aa4af010f
     Export:
       Name: !Sub ${AWS::StackName}-PublicSubnetId
