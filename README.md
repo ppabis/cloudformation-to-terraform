@@ -10,4 +10,4 @@ the stack, we need to set `DeletionPolicy: Retain` on each resource.
 Follow the steps described on my blog for more info:
 
 - [https://pabis.eu/blog/2025-06-26-From-CloudFormation-to-Terraform-with-Terraformer.html](https://pabis.eu/blog/2025-06-26-From-CloudFormation-to-Terraform-with-Terraformer.html)
-- [https://dev.to/...](https://dev.to/...)
+- [https://dev.to/aws-builders/choose-iac-wisely-the-first-time-cloudformation-terraform-and-pain-41jl](https://dev.to/aws-builders/choose-iac-wisely-the-first-time-cloudformation-terraform-and-pain-41jl)
